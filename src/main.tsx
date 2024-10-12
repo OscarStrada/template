@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/Root.tsx";
 import Chapter1 from "./pages/chapter1.tsx";
 import Chapter2 from "./pages/chapter2.tsx";
+import Chapter3 from "./pages/chapter3.tsx";
+
 import "./styles/index.css";
 
 const router = createBrowserRouter([
@@ -19,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/chapter-2",
     element: <Chapter2 />,
+  },
+  {
+    path: "/chapter-3",
+    element: <Chapter3 />,
   },
 ]);
 

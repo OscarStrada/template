@@ -1,0 +1,7 @@
+.custom-button {
+    display: inline-flex;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
