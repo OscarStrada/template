@@ -1,26 +1,12 @@
-import { cloneElement, ReactElement } from "react";
+import { ReactElement } from "react";
 import "./custom-button.css";
 
 type CustomButtonProps = {
-  icon: ReactElement;
-  appearance?: "primary" | "secondary";
-  size?: "large" | "medium";
+  renderIcon: () => ReactElement;
 };
 
-function CustomButton({ icon, appearance, size }: CustomButtonProps) {
-  const defaultIconProps = {
-    size: size === "large" ? 30 : 24,
-    color: appearance === "primary" ? "white" : "black",
-  };
-
-  const newProps = {
-    ...defaultIconProps,
-    ...icon.props,
-  };
-
-  const clonedIcon = cloneElement(icon, newProps);
-
-  return <button className="custom-button">Submit {clonedIcon}</button>;
+function CustomButton({ renderIcon }: CustomButtonProps) {
+  return <button className="custom-button">Submit {renderIcon()}</button>;
 }
 
 export default CustomButton;
