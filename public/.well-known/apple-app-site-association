@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "LP33PVQNA6.com.cinepolis.go",
+        "paths": [
+          "/*"
+        ]
+      }
+    ]
+  }
+}

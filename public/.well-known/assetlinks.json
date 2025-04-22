@@ -1,0 +1,47 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.cinepolis.producto.debug",
+            "sha256_cert_fingerprints": [
+                "DF:D3:94:1A:79:9E:59:20:6C:52:AD:83:78:F0:D8:57:DE:3F:DD:A8:23:A6:B2:47:0D:C5:F1:B7:DB:65:A7:66"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.cinepolis.producto",
+            "sha256_cert_fingerprints": [
+                "BF:F0:BA:51:4C:E9:B4:44:D2:02:37:99:94:B6:F7:75:BC:C4:64:67:05:0B:FC:EC:96:7C:7C:46:FE:B3:C0:EC"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "web",
+            "site": "https://api-g-dev.cinepolis.com"
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.cinepolis.producto.debug",
+            "sha256_cert_fingerprints": [
+                "DF:D3:94:1A:79:9E:59:20:6C:52:AD:83:78:F0:D8:57:DE:3F:DD:A8:23:A6:B2:47:0D:C5:F1:B7:DB:65:A7:66"
+            ]
+        }
+    }
+]

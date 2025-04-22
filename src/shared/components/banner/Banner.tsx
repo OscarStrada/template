@@ -1,5 +1,5 @@
 export const Banner = () => {
-  console.log("rendering banner");
+  console.log("🚀 ~ banner was render");
 
   return (
     <div className="bg-[#91B3FF] text-[#15274D] font-bold py-5 flex justify-between items-center px-32">

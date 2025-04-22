@@ -1,10 +1,10 @@
 import { Banner } from "../shared/components/banner/Banner";
 import { Header } from "../shared/components/header/Header";
-import { Overlay } from "../shared/components/overlay/Overlay";
 import { useHeaderModal } from "../shared/hooks/useHeaderModal";
+// import { Overlay } from "../shared/components/overlay/Overlay";
 
-export default function Root() {
-  console.log("🏠 ~ root was render");
+export default function Home() {
+  console.log("🏠 ~ home was render");
   const { isOpen } = useHeaderModal();
 
   return (

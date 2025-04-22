@@ -1,82 +1,36 @@
-.bunch-of-stuff {
-    background-color: white;
-    color: black;
-    min-height: 30rem;
-    padding: 1rem;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 600; */
+  /* line-height: 1.5; */
+
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+  /* color: white; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.scrollable-block {
-    height: 25vh;
-    overflow: scroll;
-    position: relative;
-    z-index: 1;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.movable-block {
-    background: rgba(149, 62, 255, 0.681);
-    width: 4rem;
-    height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    right: 0;
+* {
+  margin: 0;
 }
 
-.button {
-    padding: 0.5rem;
-    background: lightgrey;
-    border: 1px solid grey;
-    font-size: 1rem;
-    display: inline-flex;
-    gap: 0.5rem;
-    align-items: center;
-    border-radius: 5px;
-    cursor: pointer;
-
-    &:hover {
-        background: rgba(grey, 0.5);
-    }
-
-    &.secondary {
-        background: rgba(lightgrey, 0.3);
-        border: 1px solid lightgrey;
-
-        &:hover {
-            background: rgba(lightgrey, 0.1);
-        }
-    }
-
-    &.dark {
-        background: darkgray;
-        border: 1px solid gray;
-
-        &:hover {
-            background: rgba(grey, 0.9);
-        }
-    }
-}
-
-.modal-dialog {
-    position: fixed;
-    top: 30px;
-    left: 50%;
-    margin-left: -15rem;
-    width: 30rem;
-    background: white;
-    border: 1px solid rgba(grey, 0.5);
-    border-radius: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-
-    .content {
-        padding: 2rem 1rem;
-    }
-
-    .footer {
-        padding: 1rem;
-        background: rgba(lightgrey, 0.2);
-        border-top: 1px solid gray;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
+body {
+  min-width: 320px;
+  min-height: 100vh;
 }
