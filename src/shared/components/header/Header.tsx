@@ -1,7 +1,6 @@
 import { Search, UserRound } from "lucide-react";
 import { useScroll } from "../../hooks/useScroll";
 import { Navbar } from "../navbar/Navbar";
-import { NavbarItem } from "../navbar/NavbarItem";
 import { Logo } from "../logo/Logo";
 import { Searchbar } from "../searchbar/Searchbar";
 import { Button } from "../button/Button";
