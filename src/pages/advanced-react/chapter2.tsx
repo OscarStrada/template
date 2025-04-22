@@ -1,8 +1,7 @@
-import { BunchOfStuff } from "./components/BunchOfStuff";
-import { OtherStuffAlsoComplicated } from "./components/OtherStuffAlsoComplicated";
-import { SimulatedSlowComponent } from "./components/SimulatedSlowComponent";
-import { ScrollableWithMovingBlock } from "./components/ScrollableWithMovingBlock";
-import "../styles/main.css";
+import { BunchOfStuff } from "../../components/BunchOfStuff";
+import { OtherStuffAlsoComplicated } from "../../components/OtherStuffAlsoComplicated";
+import { SimulatedSlowComponent } from "../../components/SimulatedSlowComponent";
+import { ScrollableWithMovingBlock } from "../../components/ScrollableWithMovingBlock";
 
 function Chapter2() {
   console.log("🚀 ~ rendering chapter2");
